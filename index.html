@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b12bcc245.js" crossorigin="anonymous"></script>
+    <title>25th Anniversary Invite</title>
+</head>
+<body>
+    <audio id="background-music" loop>
+        <source src="Aaj Sajeya Goldie Sohel 128 Kbps.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">A&G</label>
+        <ul class="text">
+            <li><a href="#story" onclick="myFunction()">OUR JOURNEY</a></li>
+            <li><a href="#stay" onclick="myFunction()">TRAVEL & STAY</a></li>
+            <li><a href="#registry" onclick="myFunction()">VOWS RENEWAL</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="home hz-margin">
+        <h3>We're celebrating 25 years of love</h3>
+        <h1>Aman. & Gur.</h1>
+        <div class="container-out">
+            
+            <div class="container-in text">
+                Monday, Nov. 11, 2024 <br>
+                Noida, Ghaziabad
+
+                <button class="huge-btn">RSVP</button>
+            </div>
+            <div class="home-img" id="home-img-lg"></div>
+        </div>
+    </div>
+
+
+    <div class="home-img home-img-sm"></div>
+    <div class="timeline hz-margin reveal">
+        <h2>Celebrating 25 Years <br>
+            With Those We Cherish
+        </h2>
+        <div class="timeline-container">
+            <div class="timeline-img"></div>
+            <div class="timings">
+                <h3>01.&nbsp &nbsp Vows Renewal</h3>
+                <div class="text">Friday, Oct. 25, 2023 <br>
+                    ITC Sonar Bangla, Kolkata</div>
+                <h3>02.&nbsp &nbsp Reception</h3>
+                <div class="text">Sunday, Oct. 27, 2023 <br>
+                    Poddar Vihar, Kolkata</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="v-reposition-container">
+        <div class="h-reposition-container">
+
+
+            <div id="story" class="hz-margin">
+                <h3 class="reveal">A Love Story <br>
+                    That Stands the Test of Time
+                </h3>
+                <p class="text reveal">It started on a ferry all those years ago. His friends convinced him to go, and as fate would have it, one night we ended up chatting. The next day, we met again by the Tellypara Ghat, and spent hours by the river, sharing moments that would shape our lives. Twenty-five years later, our journey continues stronger than ever.</p>
+            </div>
+
+
+            <div class="gallery hz-margin reveal">
+                <div class="gallery-img"></div>
+                <div class="gallery-img"></div>
+                <div class="gallery-img"></div>
+            </div>
+
+
+            <div class="quote reveal">
+                <h1>“True love doesn't have a happy ending, because true love never ends.”</h1>
+                <div class="author text">Anonymous</div>
+            </div>
+
+
+            <div class="hands" id="parallax1"></div>
+
+
+            <div id="stay">
+                <h2 class="reveal">Travel and Stay</h2>
+                <div class="stay-container reveal">
+                    <div class="stay-item">
+                        <h3>01. <br>
+                            Getting There
+                        </h3>
+                        <div class="text">Easy-to-follow <br> directions to the venue</div>
+                        <div class="text links">MAP & DETAILS</div>
+                    </div>
+                    <div class="stay-item">
+                        <h3>02. <br>
+                            Once You're There
+                        </h3>
+                        <div class="text">Fun activities in <br> the surrounding area</div>
+                        <div class="text links">OUR RECOMMENDATIONS</div>
+                    </div>
+                    <div class="stay-item">
+                        <h3>03. <br>
+                            Where to Stay
+                        </h3>
+                        <div class="text">Hotels and B&Bs <br> to consider</div>
+                        <div class="text links">LODGING OPTIONS</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="registry">
+                <div class="registry-container reveal">
+                    <h3>Vows Renewal</h3>
+                    <div class="text">
+                        I promise to stand by your side, just as I have for the past 25 years, offering love, support, and loyalty. Together, we will continue building our life, protecting our family, and facing the world as a united force. With you, my life is full of meaning, and I will always cherish our bond.
+                    </div>
+                    <button class="huge-btn text">BLESS US</button>
+                </div>
+                <div class="registry-img registry-img-lg" id="parallax2"></div>
+            </div>
+            <div class="registry-img registry-img-sm"></div>
+
+
+            <div class="parting-message reveal">
+                <h1>We Can't Wait to Celebrate With You!</h1>
+                <button class="huge-btn">RSVP</button>
+            </div>
+
+
+            <footer>
+                <h2>Give us a Call</h2>
+                <h2>Amandeep: 123-456-7890</h2>
+                <h2>Gurpreet: 123-456-7890</h2>
+                <div class="text">© 2024 for Aman and Gur. Made by <a href="https://www.linkedin.com/in/gourav-rajput-0b5b91204/" class="text">@Gourav</a></div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        // Function to play background music on any click event
+        document.body.addEventListener('click', function() {
+            var music = document.getElementById('background-music');
+            if (music.paused) {
+                music.play();
+            }
+        });
+    </script>
+</body>
+</html>
